@@ -20,6 +20,8 @@
 		EF647F6D16DBAFC4002E81BB /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF647F6C16DBAFC4002E81BB /* CardGameViewController.m */; };
 		EF647F7516DBBCD5002E81BB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EF647F7416DBBCD5002E81BB /* Card.m */; };
 		EF647F7816DBBD1E002E81BB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = EF647F7716DBBD1E002E81BB /* Deck.m */; };
+		EF997B4816E4109C00384EFB /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EF997B4716E4109C00384EFB /* PlayingCard.m */; };
+		EF997B4B16E4176D00384EFB /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = EF997B4A16E4176D00384EFB /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,10 @@
 		EF647F7416DBBCD5002E81BB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		EF647F7616DBBD1E002E81BB /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
 		EF647F7716DBBD1E002E81BB /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		EF997B4616E4109C00384EFB /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		EF997B4716E4109C00384EFB /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		EF997B4916E4176D00384EFB /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		EF997B4A16E4176D00384EFB /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,10 @@
 				EF647F7416DBBCD5002E81BB /* Card.m */,
 				EF647F7616DBBD1E002E81BB /* Deck.h */,
 				EF647F7716DBBD1E002E81BB /* Deck.m */,
+				EF997B4616E4109C00384EFB /* PlayingCard.h */,
+				EF997B4716E4109C00384EFB /* PlayingCard.m */,
+				EF997B4916E4176D00384EFB /* PlayingCardDeck.h */,
+				EF997B4A16E4176D00384EFB /* PlayingCardDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -197,6 +207,8 @@
 				EF647F6D16DBAFC4002E81BB /* CardGameViewController.m in Sources */,
 				EF647F7516DBBCD5002E81BB /* Card.m in Sources */,
 				EF647F7816DBBD1E002E81BB /* Deck.m in Sources */,
+				EF997B4816E4109C00384EFB /* PlayingCard.m in Sources */,
+				EF997B4B16E4176D00384EFB /* PlayingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +331,7 @@
 				EF647F7216DBAFC4002E81BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
